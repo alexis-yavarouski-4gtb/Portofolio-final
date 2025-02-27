@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+    body {
+    margin: 0;
+    color: white;
+    background-color: black;
+    font-family: "Tektur", serif;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-right: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+/* Stijl voor het hamburger icoon */
+#hamburger {/* Hamburger icon zichtbaar op mobiele schermen */
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto; /* Verplaatst de hamburger naar rechts */
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Verberg menu op mobiele schermen */
+#menu ul {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+
+    list-style: none;
+}
+
+#menu{
+    display: flex;
+    display: none;
+    align-content: center;
+}
+
+#menu.show {
+    display: block;
+    margin-left: 10px;
+}
+
+.logo-main img{
+    width: 3rem;
+    position: absolute;
+}
+
+.logo-main{
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    border-bottom: 10px;
+    border-bottom-color: white;
+}
+
+.intro p{
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+footer ul {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+footer a i{
+    color: white;
+    font-size: 2rem;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+}
